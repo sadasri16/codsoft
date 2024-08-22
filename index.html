@@ -1,33 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="calculator">
-      <input type="text" id="display" readonly />
-      <div class="buttons">
-        <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('8')">8</button>
-        <button onclick="appendToDisplay('9')">9</button>
-        <button onclick="appendToDisplay('+')">+</button>
-        <button onclick="appendToDisplay('4')">4</button>
-        <button onclick="appendToDisplay('5')">5</button>
-        <button onclick="appendToDisplay('6')">6</button>
-        <button onclick="appendToDisplay('-')">-</button>
-        <button onclick="appendToDisplay('1')">1</button>
-        <button onclick="appendToDisplay('2')">2</button>
-        <button onclick="appendToDisplay('3')">3</button>
-        <button onclick="appendToDisplay('*')">*</button>
-        <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="clearDisplay()">C</button>
-        <button onclick="calculate()">=</button>
-        <button onclick="appendToDisplay('/')">/</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="C:\Users\sadas\Downloads\port1.jpeg" alt="logo" width="100px" height="100px" style="background-color:transparent">
+            </div>
+            
+            <center>
+                <div class="nav-bar">
+                    <div class="head"><a href="C:\Users\sadas\Desktop\CODSOFT\landingpage\about.html">About</a></div>
+                    <div class="head"><a href="C:\Users\sadas\Desktop\CODSOFT\landingpage\skills.html">Skills</a></div>
+                    <div class="head"><a href="C:\Users\sadas\Desktop\CODSOFT\landingpage\projects.html">Projects</a></div>
+                    <div class="head"><a href="C:\Users\sadas\Desktop\CODSOFT\landingpage\achivements.html">Achivments</a></div>
+                    <div class="head"><a href="C:\Users\sadas\Desktop\CODSOFT\landingpage\contact.html">Contact</a></div>
+                </div>
+            </center>
+        </nav>
+    </header>
+
+    <section class="about" >
+        <div class="name">
+            <center>
+                <h2><span>Nalla</span> Sadasri</h2>
+            </center>
+        
+        </div>
+        <div class="summary">
+            <div class="text"><p> Enthusiastic and adaptable recent graduate with a BTech from jawaharlal nehru technological University. 
+                Possesses strong communication and problem-solving skills developed through coursework and internships. 
+                Proficient in web technologies and relavent programming language.</p>
+        </div>
+        <div>
+            <center>
+                <img src="C:\Users\sadas\Desktop\CODSOFT\landingpage\port.jpg" class="rounded" alt="about" width="250px" height="250px">
+            </center>
+        </div>
+        </div>
+
+    </section>
+    <section class="skills">
+        <div class="container">
+            <center><h2 style="font-weight: 500;color: rgb(255, 196, 0)">Skills</h2></center>
+            <h4>Java Programming(JME)</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                90% Complete
+              </div>
+            </div>
+            <h4>Data Structures & Algorithms</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                60% Complete 
+              </div>
+            </div>
+            <h4>SQL</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                70% Complete 
+              </div>
+            </div>
+            <h4>Python</h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                100% Complete
+              </div>
+            </div>
+          </div>
+          
+
+    </section>
+    <section class="projects">
+
+        <center><div class="heading"><h2 style="font-weight: 500;color: rgb(0, 255, 149)">Projects</h2></div></center>
+        <div class="pro">
+            <div class="container mt-3">
+                <div class="card" style="width:400px">
+                  
+                  <div class="card-body">
+                    <h4 class="card-title">Smart Parking</h4>
+                    <p class="card-text">Way to find vehicles more efficiently without any obligations</p>
+                    
+                  </div>
+                </div>
+            </div>
+    
+                <div class="container mt-3">
+                    
+                    <div class="card" style="width:400px">
+                      
+                      <div class="card-body">
+                        <h4 class="card-title">Web Quiz</h4>
+                        <p class="card-text">the web quick project is done by basic HTML, CSS and JavaScript, and I am sure you will enjoy the basic quiz on java</p>
+                        
+                      </div>
+                    </div>
+                </div>
+    
+                    
+    </section>
+    <section class="achiv">
+        <center><div class="heading"><h2 style="font-weight: 500;color: rgb(0, 255, 72)">Achivments</h2></div></center>
+        <div class="achivcard">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>1</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <h4>National Level Techno-Cultural Fest – Crypto-Quest (2nd Winner Award). </h4>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>2</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <h4>Certificate of Appreciation for leading the Paper Presentation event</h4> 
+                    
+                  </div>
+                </div>
+              </div>
+    
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>3</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <h4>Google developer Student Club - Ideathon (3rd Winner Award)</h4> 
+                    
+                  </div>
+                </div>
+              </div>
+    
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <h1>4</h1>
+                  </div>
+                  <div class="flip-card-back">
+                    <h4>Quest For The Best - 2nd Winner Award.</h4> 
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="contact">
+        <center><div class="heading"><h2 style="font-weight: 500;color: rgb(0, 255, 149)">Contact Me</h2></center>
+
+<div class="container" ">
+  <form action="C:\Users\sadas\Desktop\CODSOFT\landingpage\contact.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="china">China</option>
+          <option value="india">India</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit" >
+    </div>
+  </form>
+</div>
+    </section>
+</body>
 </html>
