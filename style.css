@@ -1,39 +1,115 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+* {
   padding: 0;
+  margin: 0;
+}
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 2px;
+  background-color: white;
+}
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  background-repeat: no-repeat;
+}
+.header {
+  position: relative;
+  width: 100%;
+}
+
+.tag {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tag h2 {
+  margin: 0 0 10px;
+}
+
+.tag p {
+  margin: 0;
+}
+.head {
+  padding: 5px;
+  margin: 10px;
+  color: rgba(2, 116, 161, 0.8);
+}
+
+.contact-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
-.calculator {
-  border: 2px solid #2b946d;
-  border-radius: 8px;
+.bg-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contact-form {
+  background-color: rgba(2, 116, 161, 0.8);
+  color: white;
   padding: 20px;
+  border-radius: 10px;
   width: 300px;
-  margin: 0 auto;
   text-align: center;
 }
 
-#display {
-  border: 2px solid #208e81;
-  width: calc(100% - 10px);
-  height: 40px;
-  margin-bottom: 10px;
-  font-size: 24px;
+.contact-form h2 {
+  margin-bottom: 20px;
 }
 
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
+.form-group {
+  margin-bottom: 20px;
 }
 
-button {
-  border: 2px solid #1d847a;
+.form-group input,
+.form-group textarea {
   width: 100%;
   padding: 10px;
-  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: white;
+  color: rgb(2, 116, 161);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+footer {
+  padding: 15px;
 }
